@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  gap: 1px;
+}
+
+.element {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.element h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.element .symbol {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.element .atomic-number {
+  font-size: 12px;
+}
+
+.element .atomic-mass {
+  font-size: 10px;
+}
+
+.element img {
+  max-width: 100%;
+  max-height: 100px;
+  margin: auto;
+  display: block;
+}
+
+/* Cores para diferentes tipos de elementos */
+/* Você pode personalizar estas cores conforme desejar */
+.alkali-metal { background-color: #ffcccb; }
+.alkaline-earth-metal { background-color: #ffebcc; }
+.transition-metal { background-color: #fffacc; }
+.lanthanide { background-color: #ddffdd; }
+.actinide { background-color: #bbffdd; }
+.nonmetal { background-color: #ccffff; }
+.halogen { background-color: #cce5ff; }
+.noble-gas { background-color: #f5ccff; }
+.post-transition-metal { background-color: #ffcccc; }
+.metalloid { background-color: #ffddcc; }
+</style>
+</head>
+<body>
+<div class="table">
+  <!-- Grupo 1: Metais alcalinos -->
+  <div class="element alkali-metal"></div>
+  <div class="element alkali-metal"></div>
+  <div class="element alkali-metal"></div>
+  <div class="element alkali-metal"></div>
+  <div class="element alkali-metal"></div>
+  <div class="element alkali-metal"></div>
+  <div class="element alkali-metal"></div>
+  <div class="element alkali-metal"></div>
+  
+  <!-- Grupo 2: Metais alcalino-terrosos -->
+  <div class="element alkaline-earth-metal"></div>
+  <div class="element alkaline-earth-metal"></div>
+  <div class="element alkaline-earth-metal"></div>
+  <div class="element alkaline-earth-metal"></div>
+  <div class="element alkaline-earth-metal"></div>
+  <div class="element alkaline-earth-metal"></div>
+  <div class="element alkaline-earth-metal"></div>
+  <div class="element alkaline-earth-metal"></div>
+  
+  <!-- Grupo 3-12: Metais de transição -->
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  <div class="element transition-metal"></div>
+  
+  <!-- Grupo 13: Metais de bloco p -->
+  <div class="element post-transition-metal"></div>
+  <div class="element post-transition-metal"></div>
+  <div class="element post-transition-metal"></div>
+  <div class="element post-transition-metal"></div>
+  <div class="element post-transition-metal"></div>
+  <div class="element post-transition-metal"></div>
+  <div class="element post-transition-metal"></div>
+  <div class="element post-transition-metal"></div>
+  
+  <!-- Grupo 14: Semimetais e não metais -->
+  <div class="element metalloid"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  
+  <!-- Grupo 15: Não metais -->
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  
+  <!-- Grupo 16: Não metais -->
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  <div class="element nonmetal"></div>
+  
+  <!-- Grupo 17: Halogênios -->
+  <div class="element halogen"></div>
+  <div class="element halogen"></div>
+  <div class="element halogen"></div>
+  <div class="element halogen"></div>
+  <div class="element halogen"></div>
+  <div class="element halogen"></div>
+  <div class="element halogen"></div>
+  <div class="element halogen"></div>
+  
+  <!-- Grupo 18: Gases nobres -->
+  <div class="element noble-gas"></div>
+  <div class="element noble-gas"></div>
+  <div class="element noble-gas"></div>
+  <div class="element noble-gas"></div>
+  <div class="element noble-gas"></div>
+  <div class="element noble-gas"></div>
+  <div class="element noble-gas"></div>
+  <div class="element noble-gas"></div>
+</div>
+</body>
+</html>
+
